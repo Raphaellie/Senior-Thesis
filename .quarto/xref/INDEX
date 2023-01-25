@@ -1,0 +1,29 @@
+{
+  "index.qmd": {
+    "index.html": "bc9c0915"
+  },
+  "intro.qmd": {
+    "intro.html": "2470390d"
+  },
+  "theory.qmd": {
+    "theory.html": "bc5ea73d"
+  },
+  "references.qmd": {
+    "references.html": "8e89c003"
+  },
+  "policy.qmd": {
+    "policy.html": "fef18ea8"
+  },
+  "partisan.qmd": {
+    "partisan.html": "7e3d90aa"
+  },
+  "voting.qmd": {
+    "voting.html": "96b73873"
+  },
+  "conclusion.qmd": {
+    "conclusion.html": "2b66e6d7"
+  },
+  "dedication.qmd": {
+    "dedication.html": "a956ecc8"
+  }
+}

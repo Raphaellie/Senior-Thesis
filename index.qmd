@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+This makes my senior thesis for undergraduate studies at Peking University, which revolves around racial imagery as both a theoretical perspective and a source of empirical influence over racialized political behavior. The main body of this thesis is a mildly modified collection of three standalone articles where I explored the presence and implications of racial imagery in three essential domains of American political behavior: policy preferences, partisan polarization, and voting behavior.
+
+# Acknowledgments
+
+\clearpage \pagenumbering{arabic}

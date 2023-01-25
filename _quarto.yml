@@ -1,0 +1,78 @@
+project:
+  type: book
+  
+book:
+  title: "Shades of Politics: From Racial Imagery to Political Divides"
+  # subtitle: "From Racial Imagery to Political Divides""
+  author: Chaoyue Wang
+  date: last-modified
+  date-format: long
+  chapters: 
+    - index.qmd
+    - intro.qmd
+    - theory.qmd
+    - policy.qmd
+    - partisan.qmd
+    - voting.qmd
+    - conclusion.qmd
+    - references.qmd
+
+format:
+  pdf:
+    documentclass: scrreprt
+    pdf-engine: lualatex
+    fontsize: 12pt
+    # toc: false
+    indent: true
+    number-sections: true
+    fontfamily: crimson, biolinum
+    # mainfont: cochineal
+    monofont: inconsolata
+    linestretch: 1.2
+    geometry: left = 1.5in, right = 1.5in,top = 1.5in, bottom = 1.5in
+    include-before: 
+      - \captionsetup{labelfont = bf, font = small} 
+      - \AtBeginEnvironment{tabular}{\small}
+      - \AtBeginEnvironment{tablenotes}{\small}
+      - \urlstyle{tt}
+      - \begin{center} \vspace*{10em} \large \onehalfspacing
+      - \textit{To He Puzhen, my grandmother, \\ for everything she gave and taught me.} 
+      - \end{center}
+      - \thispagestyle{empty} \newpage 
+      - \pagenumbering{roman} 
+    header-includes: 
+      - \usepackage[scale = 0.7]{sourcecodepro}
+      - \usepackage{etoolbox}
+      - \usepackage{enumitem}
+      - \setlist[description]{leftmargin=\parindent,labelindent=\parindent}
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    fig-pos: tb
+    tbl-pos: tb
+    link-citations: true
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    
+  html:
+    theme: lumen # lumen journal flatly cosmo
+    fig-dpi: 500
+    tabl-cap-location: margin
+    number-sections: true
+    code-tools: true
+    toc: true
+    toc-title: Overview
+    toc-location: right
+    # linkcolor: MidnightBlue
+    # comments:
+    #   hypothesis:
+    #     theme: classic
+ 
+editor: visual
+execute: 
+  echo: false
+  warning: false
+  freeze: true
+bibliography: references.bib
+
+

@@ -1,0 +1,18 @@
+{
+  "hash": "683c76a33b4c3af17ef9544e223d2f62",
+  "result": {
+    "markdown": "# Racial Imagery: Concept and Consequences\n\nIn summary, this book has no content whatsoever.\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

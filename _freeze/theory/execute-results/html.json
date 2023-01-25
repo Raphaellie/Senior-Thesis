@@ -1,0 +1,16 @@
+{
+  "hash": "3a4b3d01ec07d203ed5a9e1188f23950",
+  "result": {
+    "markdown": "# Race, Representation, and Politics\n\nIn summary, this book has no content whatsoever.\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "theory_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
