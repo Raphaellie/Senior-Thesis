@@ -1,0 +1,16 @@
+{
+  "hash": "980cfe27a29cf4ae63cacc8a0c378e98",
+  "result": {
+    "markdown": "# Counter-Image Candidates and Partisan Voting\n\n\n\n::: {.cell}\n\n:::\n\n\n\nInstead of basing their political affiliation upon rigorous, consistent. Combine your analyses with code chunks that reproduce essential figures and tables.\n\n\n\n::: {.cell fig.asp='0.33'}\n::: {.cell-output-display}\n![**Minority Republican Candidates and Partisan Vote.**](voting_files/figure-html/fig-partisan-vote-1.png){#fig-partisan-vote width=3200}\n:::\n:::\n\n::: {.cell fig.asp='0.5'}\n::: {.cell-output-display}\n![**Minority Republican Candidates and Electoral Participation.**](voting_files/figure-html/fig-partisan-participation-1.png){#fig-partisan-participation width=2000}\n:::\n:::\n",
+    "supporting": [
+      "voting_files/figure-html"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,1 +1,38 @@
-# Minority Republican Candidates and Party-Line Voting
+# Counter-Image Candidates and Partisan Voting
+
+```{r}
+#| label: setup
+#| warning: false
+
+## packages
+library(tidyverse)
+library(viridisLite)
+library(modelsummary)
+library(broom)
+library(sjPlot)
+
+## set theme
+theme_set(theme_sjplot())
+theme_update(axis.text = element_text(color = 'black'),legend.position = 'none',)
+
+
+load('RData/voting.Rdata')
+```
+
+```{r}
+#| label: fig-partisan-vote
+#| fig-cap: "**Minority Republican Candidates and Partisan Vote.**"
+#| fig-width: 8
+#| fig-asp: 0.33
+
+plot.vote
+```
+
+```{r}
+#| label: fig-partisan-participation
+#| fig-cap: "**Minority Republican Candidates and Electoral Participation.**"
+#| fig-width: 5
+#| fig-height: 2.5
+
+plot.participate
+```

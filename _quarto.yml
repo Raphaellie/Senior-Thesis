@@ -7,10 +7,16 @@ book:
   author: Chaoyue Wang
   date: last-modified
   date-format: long
+  cover-image: cover.jpeg
+  favicon: cover2.jpeg
+  sidebar:
+    border: true
+  page-footer:
+    left: "Chaoyue Wang &copy; 2022. Proudly Built with Quarto through RStudio."
   chapters: 
     - index.qmd
     - intro.qmd
-    - theory.qmd
+    # - theory.qmd
     - policy.qmd
     - partisan.qmd
     - voting.qmd
@@ -56,7 +62,7 @@ format:
     
   html:
     theme: lumen # lumen journal flatly cosmo
-    fig-dpi: 500
+    fig-dpi: 400
     tabl-cap-location: margin
     number-sections: true
     code-tools: true
@@ -64,9 +70,6 @@ format:
     toc-title: Overview
     toc-location: right
     # linkcolor: MidnightBlue
-    # comments:
-    #   hypothesis:
-    #     theme: classic
  
 editor: visual
 execute: 

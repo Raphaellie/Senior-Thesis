@@ -1,0 +1,20 @@
+{
+  "hash": "6dfec047c8bdf8cb3681a15a6f2d3cc4",
+  "result": {
+    "markdown": "# Counter-Image Candidates and Partisan Voting\n\n\n::: {.cell}\n\n:::\n\n::: {.cell fig.asp='0.33'}\n::: {.cell-output-display}\n![**Minority Republican Candidates and Partisan Vote.**](voting_files/figure-pdf/fig-partisan-vote-1.pdf){#fig-partisan-vote}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![**Minority Republican Candidates and Electoral Participation.**](voting_files/figure-pdf/fig-partisan-participation-1.pdf){#fig-partisan-participation}\n:::\n:::\n",
+    "supporting": [
+      "voting_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
